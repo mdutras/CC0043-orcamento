@@ -13,7 +13,6 @@
 - Gilvan Gomes da Silva Junior
 - Luiz Kaio Martins e Silva
 - Marcos Rennan Fernandes da Silva
-- Denis (Mascote Trainee)
 
 ## 2. Projeto escolhido
 
