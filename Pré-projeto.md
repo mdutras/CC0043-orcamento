@@ -28,9 +28,9 @@ Não sei se é assim que se usa link em markdown, de fato só descobri que markd
 
 Tarefa   | Membros
 ---------| ------
+Gerente  | Mateus
 Back     | Renann, Mateus e Laís
 Front    | Gilvan, Renann e Laís
-Gerente  | Mateus
 
 ## 5. Cronograma de atividades
 
