@@ -20,6 +20,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import { Container } from './components/Container';
 import { Provider as PaperProvider } from 'react-native-paper';
+
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { theme } from './styles/theme';
@@ -32,6 +33,7 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 function App(): JSX.Element {
 return (
   <PaperProvider theme={theme}>
+
   <NavigationContainer>
     <Stack.Navigator
       initialRouteName="Orçamentos"
