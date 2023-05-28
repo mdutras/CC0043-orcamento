@@ -20,16 +20,33 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import { Container } from './components/Container';
 import { Provider as PaperProvider } from 'react-native-paper';
+
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { theme } from './styles/theme';
 import { ListGraphics } from './components/List';
+import { Grafico1 } from './pages/Grafico1';
+import { colors } from './styles/colors';
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function App(): JSX.Element {
 return (
   <PaperProvider theme={theme}>
-    <Container>
-      <ListGraphics />
-    </Container>
-  </PaperProvider>
+
+  <NavigationContainer>
+    <Stack.Navigator
+      initialRouteName="Orçamentos"
+      screenOptions={{
+        headerStyle: { backgroundColor: colors.green },
+        headerShadowVisible: false,
+      }}
+    >
+      <Stack.Screen name="Orçamentos" component={ListGraphics} />
+      <Stack.Screen name="Grafico1" component={Grafico1} />
+    </Stack.Navigator>
+  </NavigationContainer>
+</PaperProvider>
   );
 }
 

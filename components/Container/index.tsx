@@ -16,15 +16,15 @@ type IContainer = PropsWithChildren;
 export const Container = ({ children }: IContainer) => {
   return (
     <View style={styles.container}>
-      <ScrollView>
+      
         <View style={styles.top}>
-          <View style={styles.box}>
+          {/* <View style={styles.box}>
             <MyHeader title={"Orçamento"} goBack={true} />
-          </View>
+          </View> */}
           <Svg
             height={30}
             width={Dimensions.get("screen").width}
-            viewBox="0 100 1440 100"
+            viewBox="0 110 1440 100"
             style={styles.topWavy}
           >
             <Path
@@ -32,12 +32,13 @@ export const Container = ({ children }: IContainer) => {
               d="M0,192L60,170.7C120,149,240,107,360,112C480,117,600,171,720,197.3C840,224,960,224,1080,208C1200,192,1320,160,1380,144L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
             />
           </Svg>
-        <View style={styles.content}>
-          {children}
         </View>
-        </View>
+        <ScrollView
+        // stickyHeaderIndices={[0]}
+        // showsVerticalScrollIndicator={false}
+      >
+        <View style={styles.content}>{children}</View>
 
-        {/* </ScrollView> */}
         <View style={styles.bottom}>
           <Svg
             height={99}
@@ -59,7 +60,7 @@ export const Container = ({ children }: IContainer) => {
                 opacity: 1,
                 tintColor: "#FFF",
                 marginLeft: 75,
-                marginBottom: 10,
+                marginBottom: 25,
               }}
               source={require("../../assets/Assinatura-Horizontal-Preta_Prancheta-1.png")}
             />
@@ -74,9 +75,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     height: Dimensions.get("screen").height,
-    color: colors.marromEsquieciEmIngles,
+    color: colors.brown,
   },
-  top: {},
+  top: {
+    zIndex: 10,
+  },
   bottom: {},
   box: {
     backgroundColor: colors.green,
@@ -86,10 +89,11 @@ const styles = StyleSheet.create({
   topWavy: {
     padding: 0,
     margin: 0,
-
+    position: "absolute",
   },
   bottomWavy: {},
   content: {
-    height: Dimensions.get("screen").height * 0.63,
+    paddingTop: 20,
+    minHeight: Dimensions.get("screen").height * 0.66,
   },
 });
