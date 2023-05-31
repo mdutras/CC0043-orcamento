@@ -22,9 +22,9 @@ export const Container = ({ children }: IContainer) => {
             <MyHeader title={"Orçamento"} goBack={true} />
           </View> */}
           <Svg
-            height={30}
+            height={Dimensions.get("screen").height*0.05}
             width={Dimensions.get("screen").width}
-            viewBox="0 110 1440 100"
+            viewBox="0 90 1400 100"
             style={styles.topWavy}
           >
             <Path
@@ -41,7 +41,7 @@ export const Container = ({ children }: IContainer) => {
 
         <View style={styles.bottom}>
           <Svg
-            height={99}
+            height={Dimensions.get("screen").height*0.1}
             width={Dimensions.get("screen").width}
             viewBox="0 0 1440 290"
             style={styles.bottomWavy}
@@ -76,6 +76,7 @@ const styles = StyleSheet.create({
     flex: 1,
     height: Dimensions.get("screen").height,
     color: colors.brown,
+    backgroundColor: colors.green
   },
   top: {
     zIndex: 10,
@@ -91,9 +92,14 @@ const styles = StyleSheet.create({
     margin: 0,
     position: "absolute",
   },
-  bottomWavy: {},
+  bottomWavy: {
+    backgroundColor: "#fff"
+
+  },
   content: {
     paddingTop: 20,
     minHeight: Dimensions.get("screen").height * 0.66,
+    backgroundColor: "#fff"
+
   },
 });
