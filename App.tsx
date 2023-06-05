@@ -26,6 +26,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { theme } from './styles/theme';
 import { ListGraphics } from './components/List';
 import { Grafico1 } from './pages/Grafico1';
+import { LoginPage } from './pages/login';
 import { colors } from './styles/colors';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -44,6 +45,7 @@ return (
     >
       <Stack.Screen name="Orçamentos" component={ListGraphics} />
       <Stack.Screen name="Grafico1" component={Grafico1} />
+      <Stack.Screen name="loginPage" component={LoginPage}/>
     </Stack.Navigator>
   </NavigationContainer>
 </PaperProvider>

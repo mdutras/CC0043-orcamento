@@ -29,9 +29,9 @@ export const ListGraphics = ({navigation}: NativeStackScreenProps<RootStackParam
       style={styles.item}
       icon="chart-arc"
       mode="outlined"
-      onPress={() => navigation.navigate('Grafico1')}
+      onPress={() => navigation.navigate('loginPage')}
     >
-      Press me2
+      Press me3
     </Button>
   </List.Section>
   </Container>

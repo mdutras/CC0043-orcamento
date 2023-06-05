@@ -54,7 +54,7 @@ export const Container = ({ children }: IContainer) => {
           <View style={styles.box}>
             <Image
               style={{
-                width: 250,
+                width: 220,
                 height: 50,
                 resizeMode: "center",
                 opacity: 1,
