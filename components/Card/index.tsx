@@ -5,8 +5,14 @@ import { colors } from "../../styles/colors";
 import { Container } from "../Container";
 
 export const Card = ({...props}) => {
+  const titleColors = {
+    "Valor Planejado": colors.yellow,
+    "Valor Executado": colors.blue,
+    "Saldo": colors.green,
+    "Executado": colors.orange,
+  }
   return (
-    <View style={styles.Container}>
+    <View style={[styles.Container, {backgroundColor: titleColors[props.title]}]}>
       {/* CARDZINHO */}
       <Text style={styles.Title}>
         {props.title}
@@ -29,13 +35,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   Title: {
-    fontSize: 12,
-    fontWeight: "bold",
-    color: colors.brown,
+    fontSize: 15,
+    fontWeight: "800",
+    color: colors.black,
   },
   content: {
     fontSize: 15,
-    fontWeight: "400",
-    color: colors.brown,
+    fontWeight: "800",
+    color: colors.black,
   }
 });

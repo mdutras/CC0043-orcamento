@@ -13,7 +13,7 @@ import {
 import api from "../../services/api";
 import { Card } from "../../components/Card";
 
-const id = 2;
+const id = 1;
 
 const numberFormatter = Intl.NumberFormat("pt-BR", {
   minimumFractionDigits: 2,
@@ -40,7 +40,14 @@ export const Grafico1 = ({
         ]);
       });
   }, []);
- 
+
+  const titleColors = {
+    "Planejado": colors.yellow,
+    "Empenhado": colors.blue,
+    "A liquidar": colors.green,
+    "Liquidado": colors.orange,
+  }
+
   return (
     <Container>
       <View style={style.Content}>
@@ -67,7 +74,7 @@ export const Grafico1 = ({
                 },
                 tickLabels: {
                   fontSize: 13,
-                  fill: colors.brown,
+                  fill: colors.black,
                 },
                 ticks: {
                   stroke: colors.brown,
@@ -81,9 +88,12 @@ export const Grafico1 = ({
             <VictoryBar
               style={{
                 data: {
-                  fill: colors.orange,
+                  fill: ({ datum }: any) => titleColors[datum.x] ,
                   width: 20,
                 },
+                labels: {
+                  fill: colors.black
+                }
               }}
               cornerRadius={{ top: 2 }}
               animate={{
@@ -107,13 +117,13 @@ export const Grafico1 = ({
             content={"R$ " + numberFormatter.format(data[0].y)}
           />
           <Card
-            title="Valor executado"
+            title="Valor Executado"
             content={"R$ " + numberFormatter.format(data[1].y)}
           />
         </View>
         <View style={style.Cards}>
           <Card
-            title="A executar"
+            title="Saldo"
             content={"R$ " + numberFormatter.format(data[2].y)}
           />
           <Card
@@ -133,9 +143,10 @@ export const Grafico1 = ({
 const style = StyleSheet.create({
   Title: {
     fontSize: 18,
-    color: colors.brown,
+    color: colors.black,
     fontWeight: "bold",
-    paddingBottom: 15,
+    paddingTop: 10,
+    paddingBottom: 12,
   },
   Content: {
     flex: 1,
