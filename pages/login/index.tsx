@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import {StyleSheet, View, Button, TextInput, Dimensions, Pressable, Text} from 'react-native';
+import {StyleSheet, View, Button, TextInput, Dimensions, Pressable, Text, Image} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { Input} from 'react-native-elements';
 
 import { Container } from "../../components/Container";
+import { colors } from '../../styles/colors';
 
 export function LoginPage(): JSX.Element {
     const [login, setLogin] = useState(false);
@@ -11,7 +12,14 @@ const [pass, setPass] = useState(false);
 return (
     <Container>
         <View style={styles.container}>
-        
+            <Image
+              style={{
+                width: Dimensions.get("screen").width*0.4,
+                height: Dimensions.get("screen").height*0.3,
+                resizeMode: "center",
+              }}
+              source={require("../../img/logo2.png")}
+            />
         <TextInput
             style={styles.input}
             placeholder='Insira o login'
