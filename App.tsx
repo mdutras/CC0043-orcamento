@@ -39,7 +39,12 @@ return (
     <Stack.Navigator
       initialRouteName="Orçamentos"
       screenOptions={{
-        headerStyle: { backgroundColor: colors.green },
+        headerStyle: { backgroundColor: colors.lightBrown },
+        headerTitleStyle: {
+          color: colors.cream,
+          fontSize: 25,
+        },
+        headerTintColor: colors.cream,
         headerShadowVisible: false,
       }}
     >
