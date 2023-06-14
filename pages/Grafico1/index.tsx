@@ -128,16 +128,8 @@ export const Grafico1 = ({
 };
 
 const style = StyleSheet.create({
-  Title: {
-    fontSize: 18,
-    color: colors.black,
-    fontWeight: "bold",
-    paddingTop: 10,
-    paddingBottom: 12,
-  },
   Content: {
     flex: 1,
-    paddingTop: 10,
     justifyContentFlex: "start",
     alignItems: "center",
   },
