@@ -1,14 +1,23 @@
 import React, { useState } from 'react';
 import {StyleSheet, View, Button, TextInput, Dimensions, Pressable, Text, Image} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import { Input} from 'react-native-elements';
-
+import { Input } from 'react-native-elements';
+import auth from '@react-native-firebase/auth';
 import { Container } from "../../components/Container";
 import { colors } from '../../styles/colors';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
-export function LoginPage(): JSX.Element {
-    const [login, setLogin] = useState(false);
-const [pass, setPass] = useState(false);
+export function LoginPage({
+    navigation,
+  }: NativeStackScreenProps<RootStackParamList, "loginPage">): JSX.Element {
+    const [login, setLogin] = useState<string>('');
+    const [pass, setPass] = useState<string>('');
+    const handleLogin = () => {
+        auth().signInWithEmailAndPassword(login, pass).then(() => {
+            navigation.navigate("Orçamentos")
+        })
+    }
+    
 return (
     <Container>
         <View style={styles.container}>
@@ -23,14 +32,17 @@ return (
         <TextInput
             style={styles.input}
             placeholder='Insira o login'
-            onChangeText={t => setLogin(!!t)}
+            onChangeText={t => setLogin(t)}
+            value={login}
         />
         <TextInput
             style={styles.input}
+            secureTextEntry={true}
             placeholder='Insira a senha'
-            onChange={t => setPass(!!t)}
+            onChangeText={t => setPass(t)}
+            value={pass}
         />
-        <Pressable style={[styles.button,{backgroundColor: (login && pass)?'violet':'#CCCCCC'}]} disabled={!login || !pass}>
+        <Pressable style={styles.button} onPress={handleLogin}>
             <Text>Entrar</Text>
         </Pressable>
         </View>

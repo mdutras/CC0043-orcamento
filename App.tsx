@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import type {PropsWithChildren} from 'react';
 import {
   Alert,
   Button,
+  Dimensions,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -19,8 +20,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import { Container } from './components/Container';
-import { Provider as PaperProvider } from 'react-native-paper';
-
+import { ActivityIndicator, Provider as PaperProvider } from 'react-native-paper';
+import auth from '@react-native-firebase/auth';
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { theme } from './styles/theme';
@@ -32,12 +33,29 @@ import { colors } from './styles/colors';
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function App(): JSX.Element {
+  const [initializing, setInitializing] = useState<boolean>(true);
+  const [user, setUser] = useState<any>();
+
+  function onAuthStateChanged(user: any) {
+    setUser(user);
+    if (initializing) setInitializing(false);
+  }
+
+  useEffect(() => {
+    const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
+    return subscriber;
+  }, []);
+
+  if (initializing) (<><View style={styles.loading}>
+    <ActivityIndicator animating={true} size={"large"} />
+  </View></>);
+
 return (
   <PaperProvider theme={theme}>
 
   <NavigationContainer>
     <Stack.Navigator
-      initialRouteName="Orçamentos"
+      initialRouteName={!user ? 'Orçamentos' : 'loginPage'}
       screenOptions={{
         headerStyle: { backgroundColor: colors.lightBrown },
         headerTitleStyle: {
@@ -48,9 +66,12 @@ return (
         headerShadowVisible: false,
       }}
     >
+      <Stack.Screen 
+        name="loginPage"
+        component={LoginPage}
+        options={{title: ''}}/>
       <Stack.Screen name="Orçamentos" component={ListGraphics} />
       <Stack.Screen name="Grafico1" component={Grafico1} />
-      <Stack.Screen name="loginPage" component={LoginPage}/>
     </Stack.Navigator>
   </NavigationContainer>
 </PaperProvider>
@@ -76,6 +97,12 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontWeight: '700',
+  },
+  loading: {
+    display: "flex",
+    paddingTop: Dimensions.get("screen").height * 0.15,
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
 

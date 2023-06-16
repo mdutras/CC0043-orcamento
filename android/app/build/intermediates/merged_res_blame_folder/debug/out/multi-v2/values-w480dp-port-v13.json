@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.projetomob.app-mergeDebugResources-27:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "com.projetomob.app-mergeDebugResources-33:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/home/laisdumont/.gradle/caches/transforms-3/ff06b511a3b64a9f992a538e90dfb504/transformed/material-1.1.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+                    "source": "/home/laisdumont/.gradle/caches/transforms-3/26ad38889b3be41cbbd612345c0557ea/transformed/material-1.1.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

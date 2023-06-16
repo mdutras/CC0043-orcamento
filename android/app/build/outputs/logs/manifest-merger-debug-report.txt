@@ -5,73 +5,91 @@ INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:1:1-25:12
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:1:1-25:12
 MERGED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:1:1-25:12
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/46fd99bcd35c8732c89af6cd56b755ee/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/6847bf30a8ea80ba46b96229690be3a8/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/9112988e20ad25c32468b7d009f10311/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/74e3bdd022d93094587f9e856a992d85/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3f80df208e600499a86d99ebec48347d/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3b52310e0e3fc0beeef4808dce2ede06/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
 MERGED from [:react-native-community_masked-view] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_auth] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-32:12
 MERGED from [:react-native-safe-area-context] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-svg] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-vector-icons] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/8b07754142de06fa88289354ebe36ee0/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/32b48a3a0d0ecc8d3932e4df1a52c53f/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.react:hermes-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/2456d66d88fa512e3e22ac4e6c4ee256/transformed/jetified-hermes-android-0.71.3-debug/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/laisdumont/.gradle/caches/transforms-3/709d435e157f32f6fca74e5c82ddfeb9/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:flipper:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/abd1b06533503b2507965e54daacc09f/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:stetho:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/a259155a26baa54f04861fa9d72d6a54/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fresco:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/067ed83dec064e1da7f5072351a40cba/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:soloader:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/26e49b797918a2b71f225e01ccd08a6e/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/laisdumont/.gradle/caches/transforms-3/0cdbc0a61a4c70e74d81fbd5c10dc634/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/64ab442615f3756bb46bd53f4069aea2/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/1cbb547752a47c71ec5d4d5291ef6ff0/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/65d9a10e8a402aac2ef8fce67711f4df/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/99448aa06445ace27b75d7b0642708a6/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/211abfb369612f9f6153e9a074d380f3/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/4c8b507dea921bc962df99d04543ca26/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/4d5c8ee4105228327edb6809edf0b8d1/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/f2b82c5de5175a4003a58cf48248ce0d/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/77301389a4aa227df5e5e1ee4be14c11/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/459f8389f3d11fd3cdd94e5dbc4154a7/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/ff06b511a3b64a9f992a538e90dfb504/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/390fec0296bc36742fba54a420c04065/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/0f61e1f78a657831eaa38fdac7ef95a7/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/793b781559eb20770a4345f46214991a/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.autofill:autofill:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/79c6c13168c9a0f100196d628b24bf20/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/e02b5f8f97fcd8bced077fff18b23eb1/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] /home/laisdumont/.gradle/caches/transforms-3/d7cd89e67b3fcbe37b79b8208c0683fa/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] /home/laisdumont/.gradle/caches/transforms-3/492f654d37a2fe2e880963cf8511a966/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/e856aa0533ca710bee3c904b6895d956/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f4e01bb3ef901f6a23e13fc59bd2bf9/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/1d827142a9b723a9be3ec17b6ebe8f37/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:middleware:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/6c4ec00805dd4af2d477fec972332a8e/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/2177fb5201f245016eaf8d460f848c2a/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/f866ac86806838fdba305110c8e325d8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8788f8c50644feb69aa35d8913ee6f1b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/de2f586d8f3e60b06e5ec33b220a568f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.5.0] /home/laisdumont/.gradle/caches/transforms-3/89454c7f4ac0b9e53489a333b944caf5/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.sqlite:sqlite:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/fef7f260a5da8c1c967489de428480e6/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/a409bf01ffdba7092e9a6645b6ddae89/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/c74cecc24334585b694344385971250b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/ce55eed2ed4b6163c9765bbb6e7d523e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/1192c7fae81408127f9d82fcefd585bc/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1b76ef87b047da306c6b3fbbed716bbb/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /home/laisdumont/.gradle/caches/transforms-3/3444de6ee31c32042bfac5bde7fd8821/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/2e7346e02e6e49c502f2334b3377e46d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/a74319f16e76beadbf53eb2669b709f5/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/de044c6def7c076135525f71b6d6c734/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/62e66b16658e252012fe12b126955b56/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/d131f1b7c1a4ea769fa30823a7ba2cf3/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/3a0f4cd0fcb4e59d0eeaec7328d4dce2/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8af4bcd0e7bd4e899c6f74ff0520d65e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/287984fa959f7255649b8ffeb56238a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/laisdumont/.gradle/caches/transforms-3/64b7d6202efcfe1eaf3944b36f016693/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/0a0b509d7d3481d176b8845105d3e833/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/872347ca18edf42f726b40efc9fc01d0/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/23bf455f5a871ae6e14cd5c8f88b164b/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/02a261f493056b99e61a6b2771bd5d2d/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/2e1cc7070f535d0f5dba19291365f91f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/063ec92372c441ac2cf86f00dc6e7840/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/9a85c94938bc7c00eaa86d7cf7874633/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.react:hermes-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/8c1845b92a9a994186c7f65a5f5ef648/transformed/jetified-hermes-android-0.71.3-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/laisdumont/.gradle/caches/transforms-3/214a14b36f8982373c293d23fa7fbf31/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/0e36c852d9c785110d72cc0ba3cf93e3/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/b49e39168084c4553af424a6961bd900/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/ed12e6ec913239ab9cb09c3e279b1631/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/873ee647d6211ad1f58d5f64f46a460a/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/laisdumont/.gradle/caches/transforms-3/4a76abdc8dda78b8215b443a908a6641/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/46960638f2b6c18ffa2129ce54e8bb7e/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/ea7799b25b232aadcb02d5f79cd2998b/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/4a855301a824c98bc7ec5c77a36ef811/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/af0d864054c05bbadd841562d9ee5993/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/016c9549f531b71379780b75c2e4f6bd/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/8584010e6399ca081535702f161514dc/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/6d8f3bcd1c68bc68b850fea2145502b9/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/a3e7581e8d4914467cad4b0187981f7d/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/e83b0535f6e7c1f408106ed5b1b91888/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/1f4798e1a141de361d6ac2b9f9db5ef9/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/26ad38889b3be41cbbd612345c0557ea/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/0384065138861ac0b574232dc17bca12/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/64c0e9ea758f166a6be3c83c910091ed/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/e9c3ca262a5361eacf77d9869a4d5d6c/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/d8caa15744d71fc044b91568e3358e3d/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/b07fb73417fe0d3b69673343396dfa42/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/laisdumont/.gradle/caches/transforms-3/e2b8bf4f5c0904d93ecc866d1d6d099e/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/laisdumont/.gradle/caches/transforms-3/1a8b9c1b533bfa1585feab29f74e35d5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/laisdumont/.gradle/caches/transforms-3/ccc5255718a4421bed5286ad46c051ce/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/laisdumont/.gradle/caches/transforms-3/bf29127ce6808fc81ea4df0aa06f7174/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/laisdumont/.gradle/caches/transforms-3/9b3e6c11d903eee30d48cef2bb1a7d53/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.play:integrity:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/014722b7b2871601ac126de0e8454b7e/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/laisdumont/.gradle/caches/transforms-3/f1c974e57891653ca2128c3d0e0ff01a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/laisdumont/.gradle/caches/transforms-3/4a0a31ccfc56d6855c2a8487165d584c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/3bb2e9d9fb34fced8e239f3c506764c7/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/laisdumont/.gradle/caches/transforms-3/ecffc0da0b9e6b636cee0ca24a4c5044/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/laisdumont/.gradle/caches/transforms-3/38cdc4582ad4591504236c669498cb44/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b301c1108a2776d2c11e56a683f6c6d8/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b4657dcb8a881f11542ac64d218541a3/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/d0c8431c627d07c2162959344e345952/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/8f73d5060fa621b38068ae1def16e9a8/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/babf9c35569a51b814ba4057bcaf9486/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/laisdumont/.gradle/caches/transforms-3/9c3312928fd772e8ea0f4725f56ee206/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/1ac5edc7561d56513c063b2f0ba7f90a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /home/laisdumont/.gradle/caches/transforms-3/29fd4b7054390a7805cbb521771f218b/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/78869adcf261941e84a62ca84543ade6/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/5524e10a70a31ffc3c589024855e2aea/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0] /home/laisdumont/.gradle/caches/transforms-3/a6bfd368b08f40cbcbc82ee36d38b39d/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/47f60efa640513f0d81f9eb307a3ecd1/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8461e4e02cc83579298f1e665abe32c8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/17b3b2066208caba5c678a5e1b44d4f3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/312d21dfa1502743edf43a811459fad8/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/847b06d6c26b8ac64d46dde7eb0c12bd/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/02ff4647580ac5d1f251139770627f34/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/cbddb9addb9ddfd7db3a5516192b2425/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/laisdumont/.gradle/caches/transforms-3/165bda54bbf1eeb378ca86391e0f1fba/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/04d427402dec0c95423f34d523bb4ec2/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/76045063894e13cbc49bfbafa7bfa698/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/f8391e0ce4ea34714d6828048de75efa/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/de7a1b7fb38f3f256ec3eb3693430d88/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/014704c8a09744ee73f2918eb609ed21/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/6e785dd70db23465d53821ae66ec9e10/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/c5c552b1c1fa1bd6a5b4bf3eb2be521c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/laisdumont/.gradle/caches/transforms-3/c64ad8243aab155080f8cee11e1c7360/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/3012a29426e217b2e39841d6a25be3df/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/dd41c796660edbf2f02dddfbbb9d7c79/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/aae343c6bf6586beb509bfe8f34a4b84/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8d543f4fcc478c895fe3a340543c1b18/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/bbffb7963954a784bdffbdb056b14d78/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/a5c5ddd32388f5b04b861e3ca391cbeb/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/debug/AndroidManifest.xml:2:1-13:12
@@ -93,32 +111,60 @@ INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src
 		ADDED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:3:5-67
-MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/9112988e20ad25c32468b7d009f10311/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/9112988e20ad25c32468b7d009f10311/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3b52310e0e3fc0beeef4808dce2ede06/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3b52310e0e3fc0beeef4808dce2ede06/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase_auth] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_auth] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/laisdumont/.gradle/caches/transforms-3/9b3e6c11d903eee30d48cef2bb1a7d53/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/laisdumont/.gradle/caches/transforms-3/9b3e6c11d903eee30d48cef2bb1a7d53/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 	android:name
 		ADDED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:3:22-64
 application
 ADDED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:5:5-24:19
-MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/8b07754142de06fa88289354ebe36ee0/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/8b07754142de06fa88289354ebe36ee0/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/4c8b507dea921bc962df99d04543ca26/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/4c8b507dea921bc962df99d04543ca26/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/ff06b511a3b64a9f992a538e90dfb504/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/ff06b511a3b64a9f992a538e90dfb504/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f4e01bb3ef901f6a23e13fc59bd2bf9/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f4e01bb3ef901f6a23e13fc59bd2bf9/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/a74319f16e76beadbf53eb2669b709f5/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/a74319f16e76beadbf53eb2669b709f5/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/287984fa959f7255649b8ffeb56238a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/287984fa959f7255649b8ffeb56238a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
+MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/063ec92372c441ac2cf86f00dc6e7840/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/063ec92372c441ac2cf86f00dc6e7840/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/8584010e6399ca081535702f161514dc/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/8584010e6399ca081535702f161514dc/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/26ad38889b3be41cbbd612345c0557ea/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/26ad38889b3be41cbbd612345c0557ea/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/laisdumont/.gradle/caches/transforms-3/1a8b9c1b533bfa1585feab29f74e35d5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/laisdumont/.gradle/caches/transforms-3/1a8b9c1b533bfa1585feab29f74e35d5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/laisdumont/.gradle/caches/transforms-3/ccc5255718a4421bed5286ad46c051ce/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/laisdumont/.gradle/caches/transforms-3/ccc5255718a4421bed5286ad46c051ce/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/laisdumont/.gradle/caches/transforms-3/bf29127ce6808fc81ea4df0aa06f7174/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/laisdumont/.gradle/caches/transforms-3/bf29127ce6808fc81ea4df0aa06f7174/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.play:integrity:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/014722b7b2871601ac126de0e8454b7e/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/014722b7b2871601ac126de0e8454b7e/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/laisdumont/.gradle/caches/transforms-3/f1c974e57891653ca2128c3d0e0ff01a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/laisdumont/.gradle/caches/transforms-3/f1c974e57891653ca2128c3d0e0ff01a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/laisdumont/.gradle/caches/transforms-3/4a0a31ccfc56d6855c2a8487165d584c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/laisdumont/.gradle/caches/transforms-3/4a0a31ccfc56d6855c2a8487165d584c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b4657dcb8a881f11542ac64d218541a3/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b4657dcb8a881f11542ac64d218541a3/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/04d427402dec0c95423f34d523bb4ec2/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/04d427402dec0c95423f34d523bb4ec2/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/c5c552b1c1fa1bd6a5b4bf3eb2be521c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/c5c552b1c1fa1bd6a5b4bf3eb2be521c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/a74319f16e76beadbf53eb2669b709f5/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/04d427402dec0c95423f34d523bb4ec2/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:7:7-39
 		ADDED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml:7:7-39
@@ -171,14 +217,18 @@ uses-sdk
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/46fd99bcd35c8732c89af6cd56b755ee/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/46fd99bcd35c8732c89af6cd56b755ee/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/6847bf30a8ea80ba46b96229690be3a8/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/6847bf30a8ea80ba46b96229690be3a8/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/9112988e20ad25c32468b7d009f10311/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/9112988e20ad25c32468b7d009f10311/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/74e3bdd022d93094587f9e856a992d85/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/74e3bdd022d93094587f9e856a992d85/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3f80df208e600499a86d99ebec48347d/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3f80df208e600499a86d99ebec48347d/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3b52310e0e3fc0beeef4808dce2ede06/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3b52310e0e3fc0beeef4808dce2ede06/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
 MERGED from [:react-native-community_masked-view] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
 MERGED from [:react-native-safe-area-context] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -187,126 +237,160 @@ MERGED from [:react-native-svg] /home/laisdumont/Documents/GitHub/CC0043-orcamen
 MERGED from [:react-native-svg] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/8b07754142de06fa88289354ebe36ee0/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/8b07754142de06fa88289354ebe36ee0/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/32b48a3a0d0ecc8d3932e4df1a52c53f/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/32b48a3a0d0ecc8d3932e4df1a52c53f/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.react:hermes-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/2456d66d88fa512e3e22ac4e6c4ee256/transformed/jetified-hermes-android-0.71.3-debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:hermes-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/2456d66d88fa512e3e22ac4e6c4ee256/transformed/jetified-hermes-android-0.71.3-debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/laisdumont/.gradle/caches/transforms-3/709d435e157f32f6fca74e5c82ddfeb9/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/laisdumont/.gradle/caches/transforms-3/709d435e157f32f6fca74e5c82ddfeb9/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/abd1b06533503b2507965e54daacc09f/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/abd1b06533503b2507965e54daacc09f/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/a259155a26baa54f04861fa9d72d6a54/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/a259155a26baa54f04861fa9d72d6a54/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/067ed83dec064e1da7f5072351a40cba/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/067ed83dec064e1da7f5072351a40cba/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/26e49b797918a2b71f225e01ccd08a6e/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/26e49b797918a2b71f225e01ccd08a6e/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/laisdumont/.gradle/caches/transforms-3/0cdbc0a61a4c70e74d81fbd5c10dc634/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/laisdumont/.gradle/caches/transforms-3/0cdbc0a61a4c70e74d81fbd5c10dc634/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/64ab442615f3756bb46bd53f4069aea2/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/64ab442615f3756bb46bd53f4069aea2/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/1cbb547752a47c71ec5d4d5291ef6ff0/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/1cbb547752a47c71ec5d4d5291ef6ff0/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/65d9a10e8a402aac2ef8fce67711f4df/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/65d9a10e8a402aac2ef8fce67711f4df/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/99448aa06445ace27b75d7b0642708a6/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/99448aa06445ace27b75d7b0642708a6/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/211abfb369612f9f6153e9a074d380f3/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/211abfb369612f9f6153e9a074d380f3/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/4c8b507dea921bc962df99d04543ca26/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/4c8b507dea921bc962df99d04543ca26/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/4d5c8ee4105228327edb6809edf0b8d1/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/4d5c8ee4105228327edb6809edf0b8d1/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/f2b82c5de5175a4003a58cf48248ce0d/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/f2b82c5de5175a4003a58cf48248ce0d/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/77301389a4aa227df5e5e1ee4be14c11/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/77301389a4aa227df5e5e1ee4be14c11/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/459f8389f3d11fd3cdd94e5dbc4154a7/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/459f8389f3d11fd3cdd94e5dbc4154a7/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/ff06b511a3b64a9f992a538e90dfb504/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/ff06b511a3b64a9f992a538e90dfb504/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/390fec0296bc36742fba54a420c04065/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/390fec0296bc36742fba54a420c04065/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/0f61e1f78a657831eaa38fdac7ef95a7/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/0f61e1f78a657831eaa38fdac7ef95a7/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/793b781559eb20770a4345f46214991a/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/793b781559eb20770a4345f46214991a/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/79c6c13168c9a0f100196d628b24bf20/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/79c6c13168c9a0f100196d628b24bf20/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/e02b5f8f97fcd8bced077fff18b23eb1/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/e02b5f8f97fcd8bced077fff18b23eb1/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/laisdumont/.gradle/caches/transforms-3/d7cd89e67b3fcbe37b79b8208c0683fa/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/laisdumont/.gradle/caches/transforms-3/d7cd89e67b3fcbe37b79b8208c0683fa/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /home/laisdumont/.gradle/caches/transforms-3/492f654d37a2fe2e880963cf8511a966/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /home/laisdumont/.gradle/caches/transforms-3/492f654d37a2fe2e880963cf8511a966/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/e856aa0533ca710bee3c904b6895d956/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/e856aa0533ca710bee3c904b6895d956/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f4e01bb3ef901f6a23e13fc59bd2bf9/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f4e01bb3ef901f6a23e13fc59bd2bf9/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/1d827142a9b723a9be3ec17b6ebe8f37/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/1d827142a9b723a9be3ec17b6ebe8f37/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fresco:middleware:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/6c4ec00805dd4af2d477fec972332a8e/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:middleware:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/6c4ec00805dd4af2d477fec972332a8e/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/2177fb5201f245016eaf8d460f848c2a/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/2177fb5201f245016eaf8d460f848c2a/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/f866ac86806838fdba305110c8e325d8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/f866ac86806838fdba305110c8e325d8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8788f8c50644feb69aa35d8913ee6f1b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8788f8c50644feb69aa35d8913ee6f1b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/de2f586d8f3e60b06e5ec33b220a568f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/de2f586d8f3e60b06e5ec33b220a568f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.5.0] /home/laisdumont/.gradle/caches/transforms-3/89454c7f4ac0b9e53489a333b944caf5/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.5.0] /home/laisdumont/.gradle/caches/transforms-3/89454c7f4ac0b9e53489a333b944caf5/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.sqlite:sqlite:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/fef7f260a5da8c1c967489de428480e6/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/fef7f260a5da8c1c967489de428480e6/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/a409bf01ffdba7092e9a6645b6ddae89/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/a409bf01ffdba7092e9a6645b6ddae89/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/c74cecc24334585b694344385971250b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/c74cecc24334585b694344385971250b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/ce55eed2ed4b6163c9765bbb6e7d523e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/ce55eed2ed4b6163c9765bbb6e7d523e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/1192c7fae81408127f9d82fcefd585bc/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/1192c7fae81408127f9d82fcefd585bc/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1b76ef87b047da306c6b3fbbed716bbb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1b76ef87b047da306c6b3fbbed716bbb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /home/laisdumont/.gradle/caches/transforms-3/3444de6ee31c32042bfac5bde7fd8821/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/laisdumont/.gradle/caches/transforms-3/3444de6ee31c32042bfac5bde7fd8821/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/2e7346e02e6e49c502f2334b3377e46d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/2e7346e02e6e49c502f2334b3377e46d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/a74319f16e76beadbf53eb2669b709f5/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/a74319f16e76beadbf53eb2669b709f5/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/de044c6def7c076135525f71b6d6c734/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/de044c6def7c076135525f71b6d6c734/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/62e66b16658e252012fe12b126955b56/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/62e66b16658e252012fe12b126955b56/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/d131f1b7c1a4ea769fa30823a7ba2cf3/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/d131f1b7c1a4ea769fa30823a7ba2cf3/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/3a0f4cd0fcb4e59d0eeaec7328d4dce2/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/3a0f4cd0fcb4e59d0eeaec7328d4dce2/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8af4bcd0e7bd4e899c6f74ff0520d65e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8af4bcd0e7bd4e899c6f74ff0520d65e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/287984fa959f7255649b8ffeb56238a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/287984fa959f7255649b8ffeb56238a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/laisdumont/.gradle/caches/transforms-3/64b7d6202efcfe1eaf3944b36f016693/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/laisdumont/.gradle/caches/transforms-3/64b7d6202efcfe1eaf3944b36f016693/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/0a0b509d7d3481d176b8845105d3e833/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/0a0b509d7d3481d176b8845105d3e833/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/872347ca18edf42f726b40efc9fc01d0/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/872347ca18edf42f726b40efc9fc01d0/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/23bf455f5a871ae6e14cd5c8f88b164b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/23bf455f5a871ae6e14cd5c8f88b164b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/02a261f493056b99e61a6b2771bd5d2d/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/02a261f493056b99e61a6b2771bd5d2d/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/2e1cc7070f535d0f5dba19291365f91f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/2e1cc7070f535d0f5dba19291365f91f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/063ec92372c441ac2cf86f00dc6e7840/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/063ec92372c441ac2cf86f00dc6e7840/transformed/jetified-react-android-0.71.3-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/9a85c94938bc7c00eaa86d7cf7874633/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/9a85c94938bc7c00eaa86d7cf7874633/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.react:hermes-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/8c1845b92a9a994186c7f65a5f5ef648/transformed/jetified-hermes-android-0.71.3-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:hermes-android:0.71.3] /home/laisdumont/.gradle/caches/transforms-3/8c1845b92a9a994186c7f65a5f5ef648/transformed/jetified-hermes-android-0.71.3-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/laisdumont/.gradle/caches/transforms-3/214a14b36f8982373c293d23fa7fbf31/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/laisdumont/.gradle/caches/transforms-3/214a14b36f8982373c293d23fa7fbf31/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/0e36c852d9c785110d72cc0ba3cf93e3/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/0e36c852d9c785110d72cc0ba3cf93e3/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/b49e39168084c4553af424a6961bd900/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/b49e39168084c4553af424a6961bd900/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/ed12e6ec913239ab9cb09c3e279b1631/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/ed12e6ec913239ab9cb09c3e279b1631/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/873ee647d6211ad1f58d5f64f46a460a/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/873ee647d6211ad1f58d5f64f46a460a/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/laisdumont/.gradle/caches/transforms-3/4a76abdc8dda78b8215b443a908a6641/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/laisdumont/.gradle/caches/transforms-3/4a76abdc8dda78b8215b443a908a6641/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/46960638f2b6c18ffa2129ce54e8bb7e/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/46960638f2b6c18ffa2129ce54e8bb7e/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/ea7799b25b232aadcb02d5f79cd2998b/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/ea7799b25b232aadcb02d5f79cd2998b/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/4a855301a824c98bc7ec5c77a36ef811/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/4a855301a824c98bc7ec5c77a36ef811/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/af0d864054c05bbadd841562d9ee5993/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/af0d864054c05bbadd841562d9ee5993/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/016c9549f531b71379780b75c2e4f6bd/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/016c9549f531b71379780b75c2e4f6bd/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/8584010e6399ca081535702f161514dc/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/laisdumont/.gradle/caches/transforms-3/8584010e6399ca081535702f161514dc/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/6d8f3bcd1c68bc68b850fea2145502b9/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/6d8f3bcd1c68bc68b850fea2145502b9/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/a3e7581e8d4914467cad4b0187981f7d/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/a3e7581e8d4914467cad4b0187981f7d/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/e83b0535f6e7c1f408106ed5b1b91888/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/e83b0535f6e7c1f408106ed5b1b91888/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/1f4798e1a141de361d6ac2b9f9db5ef9/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/1f4798e1a141de361d6ac2b9f9db5ef9/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/26ad38889b3be41cbbd612345c0557ea/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/26ad38889b3be41cbbd612345c0557ea/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/0384065138861ac0b574232dc17bca12/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/0384065138861ac0b574232dc17bca12/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/64c0e9ea758f166a6be3c83c910091ed/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/64c0e9ea758f166a6be3c83c910091ed/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/e9c3ca262a5361eacf77d9869a4d5d6c/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/laisdumont/.gradle/caches/transforms-3/e9c3ca262a5361eacf77d9869a4d5d6c/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/d8caa15744d71fc044b91568e3358e3d/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/d8caa15744d71fc044b91568e3358e3d/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/b07fb73417fe0d3b69673343396dfa42/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/b07fb73417fe0d3b69673343396dfa42/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/laisdumont/.gradle/caches/transforms-3/e2b8bf4f5c0904d93ecc866d1d6d099e/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/laisdumont/.gradle/caches/transforms-3/e2b8bf4f5c0904d93ecc866d1d6d099e/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/laisdumont/.gradle/caches/transforms-3/1a8b9c1b533bfa1585feab29f74e35d5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/laisdumont/.gradle/caches/transforms-3/1a8b9c1b533bfa1585feab29f74e35d5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/laisdumont/.gradle/caches/transforms-3/ccc5255718a4421bed5286ad46c051ce/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/laisdumont/.gradle/caches/transforms-3/ccc5255718a4421bed5286ad46c051ce/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/laisdumont/.gradle/caches/transforms-3/bf29127ce6808fc81ea4df0aa06f7174/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/laisdumont/.gradle/caches/transforms-3/bf29127ce6808fc81ea4df0aa06f7174/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/laisdumont/.gradle/caches/transforms-3/9b3e6c11d903eee30d48cef2bb1a7d53/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/laisdumont/.gradle/caches/transforms-3/9b3e6c11d903eee30d48cef2bb1a7d53/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/014722b7b2871601ac126de0e8454b7e/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/014722b7b2871601ac126de0e8454b7e/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/laisdumont/.gradle/caches/transforms-3/f1c974e57891653ca2128c3d0e0ff01a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/laisdumont/.gradle/caches/transforms-3/f1c974e57891653ca2128c3d0e0ff01a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/laisdumont/.gradle/caches/transforms-3/4a0a31ccfc56d6855c2a8487165d584c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/laisdumont/.gradle/caches/transforms-3/4a0a31ccfc56d6855c2a8487165d584c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/3bb2e9d9fb34fced8e239f3c506764c7/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/3bb2e9d9fb34fced8e239f3c506764c7/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/laisdumont/.gradle/caches/transforms-3/ecffc0da0b9e6b636cee0ca24a4c5044/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/laisdumont/.gradle/caches/transforms-3/ecffc0da0b9e6b636cee0ca24a4c5044/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/laisdumont/.gradle/caches/transforms-3/38cdc4582ad4591504236c669498cb44/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/laisdumont/.gradle/caches/transforms-3/38cdc4582ad4591504236c669498cb44/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b301c1108a2776d2c11e56a683f6c6d8/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b301c1108a2776d2c11e56a683f6c6d8/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b4657dcb8a881f11542ac64d218541a3/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b4657dcb8a881f11542ac64d218541a3/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/d0c8431c627d07c2162959344e345952/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/d0c8431c627d07c2162959344e345952/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/8f73d5060fa621b38068ae1def16e9a8/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/8f73d5060fa621b38068ae1def16e9a8/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/babf9c35569a51b814ba4057bcaf9486/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/babf9c35569a51b814ba4057bcaf9486/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/laisdumont/.gradle/caches/transforms-3/9c3312928fd772e8ea0f4725f56ee206/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/laisdumont/.gradle/caches/transforms-3/9c3312928fd772e8ea0f4725f56ee206/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/1ac5edc7561d56513c063b2f0ba7f90a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/1ac5edc7561d56513c063b2f0ba7f90a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/laisdumont/.gradle/caches/transforms-3/29fd4b7054390a7805cbb521771f218b/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/laisdumont/.gradle/caches/transforms-3/29fd4b7054390a7805cbb521771f218b/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/78869adcf261941e84a62ca84543ade6/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/78869adcf261941e84a62ca84543ade6/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/5524e10a70a31ffc3c589024855e2aea/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/5524e10a70a31ffc3c589024855e2aea/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0] /home/laisdumont/.gradle/caches/transforms-3/a6bfd368b08f40cbcbc82ee36d38b39d/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] /home/laisdumont/.gradle/caches/transforms-3/a6bfd368b08f40cbcbc82ee36d38b39d/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/47f60efa640513f0d81f9eb307a3ecd1/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/47f60efa640513f0d81f9eb307a3ecd1/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8461e4e02cc83579298f1e665abe32c8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8461e4e02cc83579298f1e665abe32c8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/17b3b2066208caba5c678a5e1b44d4f3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/17b3b2066208caba5c678a5e1b44d4f3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/312d21dfa1502743edf43a811459fad8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/312d21dfa1502743edf43a811459fad8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/847b06d6c26b8ac64d46dde7eb0c12bd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/847b06d6c26b8ac64d46dde7eb0c12bd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/02ff4647580ac5d1f251139770627f34/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/02ff4647580ac5d1f251139770627f34/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/cbddb9addb9ddfd7db3a5516192b2425/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/cbddb9addb9ddfd7db3a5516192b2425/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/laisdumont/.gradle/caches/transforms-3/165bda54bbf1eeb378ca86391e0f1fba/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/laisdumont/.gradle/caches/transforms-3/165bda54bbf1eeb378ca86391e0f1fba/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/04d427402dec0c95423f34d523bb4ec2/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/laisdumont/.gradle/caches/transforms-3/04d427402dec0c95423f34d523bb4ec2/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/76045063894e13cbc49bfbafa7bfa698/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/76045063894e13cbc49bfbafa7bfa698/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/f8391e0ce4ea34714d6828048de75efa/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/f8391e0ce4ea34714d6828048de75efa/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/de7a1b7fb38f3f256ec3eb3693430d88/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/de7a1b7fb38f3f256ec3eb3693430d88/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/014704c8a09744ee73f2918eb609ed21/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/014704c8a09744ee73f2918eb609ed21/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/6e785dd70db23465d53821ae66ec9e10/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/6e785dd70db23465d53821ae66ec9e10/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/c5c552b1c1fa1bd6a5b4bf3eb2be521c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/laisdumont/.gradle/caches/transforms-3/c5c552b1c1fa1bd6a5b4bf3eb2be521c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/laisdumont/.gradle/caches/transforms-3/c64ad8243aab155080f8cee11e1c7360/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/laisdumont/.gradle/caches/transforms-3/c64ad8243aab155080f8cee11e1c7360/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/3012a29426e217b2e39841d6a25be3df/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/laisdumont/.gradle/caches/transforms-3/3012a29426e217b2e39841d6a25be3df/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/dd41c796660edbf2f02dddfbbb9d7c79/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/dd41c796660edbf2f02dddfbbb9d7c79/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/aae343c6bf6586beb509bfe8f34a4b84/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/laisdumont/.gradle/caches/transforms-3/aae343c6bf6586beb509bfe8f34a4b84/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8d543f4fcc478c895fe3a340543c1b18/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/8d543f4fcc478c895fe3a340543c1b18/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/bbffb7963954a784bdffbdb056b14d78/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/laisdumont/.gradle/caches/transforms-3/bbffb7963954a784bdffbdb056b14d78/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/a5c5ddd32388f5b04b861e3ca391cbeb/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/laisdumont/.gradle/caches/transforms-3/a5c5ddd32388f5b04b861e3ca391cbeb/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
 		INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/debug/AndroidManifest.xml
@@ -324,32 +408,180 @@ ADDED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/de
 	android:name
 		ADDED from /home/laisdumont/Documents/GitHub/CC0043-orcamento/android/app/src/debug/AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/9112988e20ad25c32468b7d009f10311/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+ADDED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3b52310e0e3fc0beeef4808dce2ede06/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/9112988e20ad25c32468b7d009f10311/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f4e01bb3ef901f6a23e13fc59bd2bf9/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f4e01bb3ef901f6a23e13fc59bd2bf9/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+		ADDED from [com.facebook.flipper:flipper:0.125.0] /home/laisdumont/.gradle/caches/transforms-3/3b52310e0e3fc0beeef4808dce2ede06/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_auth] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from [:react-native-firebase_auth] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_auth] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/laisdumont/.gradle/caches/transforms-3/9b3e6c11d903eee30d48cef2bb1a7d53/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/laisdumont/.gradle/caches/transforms-3/9b3e6c11d903eee30d48cef2bb1a7d53/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [:react-native-firebase_auth] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+	android:value
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] /home/laisdumont/Documents/GitHub/CC0043-orcamento/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/laisdumont/.gradle/caches/transforms-3/ba65c43226a296d73af978b654e61730/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /home/laisdumont/.gradle/caches/transforms-3/7f0650dc508da7541ff508e2ffd0b4da/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:70:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/laisdumont/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /home/laisdumont/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /home/laisdumont/.gradle/caches/transforms-3/4a0a31ccfc56d6855c2a8487165d584c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /home/laisdumont/.gradle/caches/transforms-3/4a0a31ccfc56d6855c2a8487165d584c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /home/laisdumont/.gradle/caches/transforms-3/4a0a31ccfc56d6855c2a8487165d584c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b4657dcb8a881f11542ac64d218541a3/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/b4657dcb8a881f11542ac64d218541a3/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/1f6b54f5cbdc781497e11a050562adc3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/laisdumont/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/00e31c29ff8f041470feab912fa976cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/laisdumont/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

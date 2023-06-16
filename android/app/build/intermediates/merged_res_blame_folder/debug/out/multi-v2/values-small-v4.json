@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.projetomob.app-mergeDebugResources-27:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.projetomob.app-mergeDebugResources-33:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/laisdumont/.gradle/caches/transforms-3/ff06b511a3b64a9f992a538e90dfb504/transformed/material-1.1.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/home/laisdumont/.gradle/caches/transforms-3/26ad38889b3be41cbbd612345c0557ea/transformed/material-1.1.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

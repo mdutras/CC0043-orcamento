@@ -101,11 +101,11 @@ export const Grafico1 = ({
         <View style={style.Cards}>
           <Card
             title="Valor Planejado"
-            content={"R$ " + numberFormatter.format((data_memo && data_memo[0]?.y) ?? 0)}
+            content={"R$ " + numberFormatter.format((data_memo && data_memo[1]?.y) ?? 0)}
           />
           <Card
             title="Valor Executado"
-            content={"R$ " + numberFormatter.format((data_memo && data_memo[1]?.y) ?? 0)}
+            content={"R$ " + numberFormatter.format((data_memo && data_memo[0]?.y) ?? 0)}
             />
         </View>
         <View style={style.Cards}>
@@ -117,7 +117,7 @@ export const Grafico1 = ({
             title="Executado"
             content={
               ((data_memo && data_memo[0]?.y) ?? 0) != 0
-                ? ((((data_memo && data_memo[1]?.y) ?? 0) * 100) / ((data_memo && data_memo[0]?.y) ?? 0)).toFixed(2) + " %"
+                ? ((((data_memo && data_memo[0]?.y) ?? 0) * 100) / ((data_memo && data_memo[1]?.y) ?? 0)).toFixed(2) + " %"
                 : "0.0 %"
             }
           />
