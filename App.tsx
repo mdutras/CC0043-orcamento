@@ -55,7 +55,7 @@ return (
 
   <NavigationContainer>
     <Stack.Navigator
-      initialRouteName={!user ? 'Orçamentos' : 'loginPage'}
+      initialRouteName={'loginPage'}
       screenOptions={{
         headerStyle: { backgroundColor: colors.lightBrown },
         headerTitleStyle: {

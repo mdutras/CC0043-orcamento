@@ -57,14 +57,6 @@ export const ListGraphics = ({
               {unit.ugr}
             </Button>
           ))}
-          <Button
-            style={styles.item}
-            icon="chart-arc"
-            mode="outlined"
-            onPress={() => navigation.navigate("loginPage")}
-          >
-            Press me3
-          </Button>
         </List.Section>
       ) : (
         <View style={styles.loading}>

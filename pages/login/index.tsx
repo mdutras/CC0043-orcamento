@@ -12,9 +12,26 @@ export function LoginPage({
   }: NativeStackScreenProps<RootStackParamList, "loginPage">): JSX.Element {
     const [login, setLogin] = useState<string>('');
     const [pass, setPass] = useState<string>('');
+    const [loginWarning, setLoginWarning] = useState<string>('');
+    const [passWarning, setPassWarning] = useState<string>('');
+
     const handleLogin = () => {
         auth().signInWithEmailAndPassword(login, pass).then(() => {
             navigation.navigate("Orçamentos")
+        },
+        (error)=>{
+            console.log(error.code)
+            switch(error.code){
+                case "auth/invalid-email":
+                    setLoginWarning("Formato de email inválido!")
+                    setPassWarning("")
+                    break
+                case "auth/user-not-found":
+                    setLoginWarning("Login ou Senha inválidos!")
+                    setPassWarning("Login ou Senha inválidos!")
+                    break
+
+            }
         })
     }
     
@@ -30,20 +47,22 @@ return (
               source={require("../../img/logo2.png")}
             />
         <TextInput
-            style={styles.input}
+            style={[styles.input, {borderBottomColor:!loginWarning?'gray':'red'}]}
             placeholder='Insira o login'
             onChangeText={t => setLogin(t)}
             value={login}
         />
+        <Text style={styles.warning}>{loginWarning}</Text>
         <TextInput
-            style={styles.input}
+            style={[styles.input, {borderBottomColor:!passWarning?'gray':'red'}]}
             secureTextEntry={true}
             placeholder='Insira a senha'
             onChangeText={t => setPass(t)}
             value={pass}
         />
-        <Pressable style={styles.button} onPress={handleLogin}>
-            <Text>Entrar</Text>
+        <Text style={styles.warning}>{passWarning}</Text>
+        <Pressable style={[styles.button, {backgroundColor: !login || !pass?'gray': colors.lightBrown}]} disabled={!login || !pass} onPress={handleLogin}>
+            <Text style={{color:!!login && !!pass?"#fff":"#ccc"}}>Entrar</Text>
         </Pressable>
         </View>
     </Container>
@@ -68,8 +87,13 @@ const styles = StyleSheet.create({
         width: Dimensions.get('window').width*0.5,
         alignItems: 'center',
         justifyContent: 'center',
-        borderRadius: 20,
+        borderRadius: 15,
         marginTop:20,
-        elevation: 5,
+    },
+    warning : {
+        color: 'red',
+        fontSize:11,
+        justifyContent: 'flex-start',
+        width: Dimensions.get('window').width*0.8,
     }
   });
