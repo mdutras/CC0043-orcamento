@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import type {PropsWithChildren} from 'react';
+import React, { useEffect, useState } from "react";
+import type { PropsWithChildren } from "react";
 import {
   Alert,
   Button,
@@ -12,27 +12,31 @@ import {
   TextInput,
   useColorScheme,
   View,
-} from 'react-native';
+} from "react-native";
 
 import {
-  Colors,
   Header,
   ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import { Container } from './components/Container';
-import { ActivityIndicator, Provider as PaperProvider } from 'react-native-paper';
-import auth from '@react-native-firebase/auth';
+} from "react-native/Libraries/NewAppScreen";
+import { Icon } from "react-native-elements";
+import { Container } from "./components/Container";
+import {
+  ActivityIndicator,
+  Provider as PaperProvider,
+} from "react-native-paper";
+import auth from "@react-native-firebase/auth";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { theme } from './styles/theme';
-import { ListGraphics } from './components/List';
-import { Grafico1 } from './pages/Grafico1';
-import { LoginPage } from './pages/login';
-import { colors } from './styles/colors';
+import { theme } from "./styles/theme";
+import { ListGraphics } from "./pages/ListUnits";
+import { Grafico1 } from "./pages/Grafico1";
+import { LoginPage } from "./pages/login";
+import { colors } from "./styles/colors";
+import { Menu } from "./pages/Menu";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
-function App(): JSX.Element {
+function App() {
   const [initializing, setInitializing] = useState<boolean>(true);
   const [user, setUser] = useState<any>();
 
@@ -46,41 +50,87 @@ function App(): JSX.Element {
     return subscriber;
   }, []);
 
-  if (initializing) (<><View style={styles.loading}>
-    <ActivityIndicator animating={true} size={"large"} />
-  </View></>);
+  if (initializing)
+    <>
+      <View style={styles.loading}>
+        <ActivityIndicator animating={true} size={"large"} />
+      </View>
+    </>;
 
-return (
-  <PaperProvider theme={theme}>
-
-  <NavigationContainer>
-    <Stack.Navigator
-      initialRouteName={'loginPage'}
-      screenOptions={{
-        headerStyle: { backgroundColor: colors.lightBrown },
-        headerTitleStyle: {
-          color: colors.cream,
-          fontSize: 25,
-        },
-        headerTintColor: colors.cream,
-        headerShadowVisible: false,
-      }}
-    >
-      <Stack.Screen 
-        name="loginPage"
-        component={LoginPage}
-        options={{title: ''}}/>
-      <Stack.Screen name="Orçamentos" component={ListGraphics} />
-      <Stack.Screen name="Grafico1" component={Grafico1} />
-    </Stack.Navigator>
-  </NavigationContainer>
-</PaperProvider>
+  return (
+    <PaperProvider theme={theme}>
+      <NavigationContainer>
+        <Stack.Navigator
+          initialRouteName={"loginPage"}
+          screenOptions={{
+            headerStyle: { backgroundColor: colors.lightBrown },
+            headerTitleStyle: {
+              color: colors.cream,
+              fontSize: 25,
+            },
+            headerTintColor: colors.cream,
+            headerShadowVisible: false,
+          }}
+        >
+          <Stack.Screen
+            name="loginPage"
+            component={LoginPage}
+            options={{ title: "" }}
+          />
+          <Stack.Screen
+            name="Orçamentos"
+            component={ListGraphics}
+            options={{
+              headerRight: () => (
+                <Icon
+                  name={"exit-to-app"}
+                  color={"#fff"}
+                  onPress={(a) => {
+                    auth().signOut();
+                  }}
+                />
+              ),
+            }}
+          />
+         <Stack.Screen
+            name="Orçamentos"
+            component={Menu}
+            options={{
+              headerRight: () => (
+                <Icon
+                  name={"exit-to-app"}
+                  color={"#fff"}
+                  onPress={(a) => {
+                    auth().signOut();
+                  }}
+                />
+              ),
+            }}
+          />
+          <Stack.Screen
+            name="Grafico1"
+            component={Grafico1}
+            options={{
+              headerRight: () => (
+                <Icon
+                  name={"exit-to-app"}
+                  color={"#fff"}
+                  onPress={(a) => {
+                    auth().signOut();
+                  }}
+                />
+              ),
+            }}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </PaperProvider>
   );
 }
 
 const styles = StyleSheet.create({
   background: {
-    flex: 1
+    flex: 1,
   },
   sectionContainer: {
     marginTop: 32,
@@ -88,15 +138,15 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: 24,
-    fontWeight: '600',
+    fontWeight: "600",
   },
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,
-    fontWeight: '400',
+    fontWeight: "400",
   },
   highlight: {
-    fontWeight: '700',
+    fontWeight: "700",
   },
   loading: {
     display: "flex",

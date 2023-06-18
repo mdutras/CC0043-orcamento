@@ -44,7 +44,7 @@ return (
                 height: Dimensions.get("screen").height*0.3,
                 resizeMode: "center",
               }}
-              source={require("../../img/logo2.png")}
+              source={require("../../assets/logo2.png")}
             />
         <TextInput
             style={[styles.input, {borderBottomColor:!loginWarning?'gray':'red'}]}

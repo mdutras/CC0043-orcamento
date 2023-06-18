@@ -2,13 +2,14 @@ import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { Dimensions, StyleSheet, Text, View } from "react-native";
 import { ActivityIndicator, Button, List, MD3Colors } from "react-native-paper";
 import { colors } from "../../styles/colors";
-import { Container } from "../Container";
+import { Container } from "../../components/Container";
 import React from "react";
 import api from "../../services/api";
 
 export const ListGraphics = ({
   navigation,
-}: NativeStackScreenProps<RootStackParamList, "Orçamentos">) => {
+}: NativeStackScreenProps<RootStackParamList, "OrçamentoUnidades">) => {
+  navigation.setOptions({title: "Orçamento Por Unidade", headerTitleStyle: {fontSize: 23}})
   const [loading, setLoading] = React.useState(true);
   const [values_units, setValuesUnit] = React.useState<
     {
