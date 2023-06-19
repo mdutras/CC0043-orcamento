@@ -60,7 +60,64 @@ function App() {
   return (
     <PaperProvider theme={theme}>
       <NavigationContainer>
-        <Stack.Navigator
+        {user?(<><Stack.Navigator
+          initialRouteName={"Menu"}
+          screenOptions={{
+            headerStyle: { backgroundColor: colors.lightBrown },
+            headerTitleStyle: {
+              color: colors.cream,
+              fontSize: 25,
+            },
+            headerTintColor: colors.cream,
+            headerShadowVisible: false,
+          }}
+        >
+          <Stack.Screen
+            name="Menu"
+            component={Menu}
+            options={{
+              headerRight: () => (
+                <Icon
+                  name={"exit-to-app"}
+                  color={colors.cream}
+                  onPress={(a) => {
+                    auth().signOut();
+                  }}
+                />
+              ),
+            }}
+          />
+          <Stack.Screen
+            name="OrçamentoUnidades"
+            component={ListGraphics}
+            options={{
+              headerRight: () => (
+                <Icon
+                  name={"exit-to-app"}
+                  color={colors.cream}
+                  onPress={(a) => {
+                    auth().signOut();
+                  }}
+                />
+              ),
+            }}
+          />
+          <Stack.Screen
+            name="Grafico1"
+            component={Grafico1}
+            options={{
+              headerRight: () => (
+                <Icon
+                  name={"exit-to-app"}
+                  color={colors.cream}
+                  onPress={(a) => {
+                    auth().signOut();
+                  }}
+                />
+              ),
+            }}
+          />
+        </Stack.Navigator></>):(<><Stack.Navigator
           initialRouteName={"loginPage"}
           screenOptions={{
             headerStyle: { backgroundColor: colors.lightBrown },
@@ -77,52 +134,7 @@ function App() {
             component={LoginPage}
             options={{ title: "" }}
           />
-          <Stack.Screen
-            name="Orçamentos"
-            component={ListGraphics}
-            options={{
-              headerRight: () => (
-                <Icon
-                  name={"exit-to-app"}
-                  color={"#fff"}
-                  onPress={(a) => {
-                    auth().signOut();
-                  }}
-                />
-              ),
-            }}
-          />
-         <Stack.Screen
-            name="Orçamentos"
-            component={Menu}
-            options={{
-              headerRight: () => (
-                <Icon
-                  name={"exit-to-app"}
-                  color={"#fff"}
-                  onPress={(a) => {
-                    auth().signOut();
-                  }}
-                />
-              ),
-            }}
-          />
-          <Stack.Screen
-            name="Grafico1"
-            component={Grafico1}
-            options={{
-              headerRight: () => (
-                <Icon
-                  name={"exit-to-app"}
-                  color={"#fff"}
-                  onPress={(a) => {
-                    auth().signOut();
-                  }}
-                />
-              ),
-            }}
-          />
-        </Stack.Navigator>
+        </Stack.Navigator></>)}
       </NavigationContainer>
     </PaperProvider>
   );

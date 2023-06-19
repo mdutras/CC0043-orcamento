@@ -4,7 +4,7 @@
             "outputFile": "com.projetomob.app-mergeDebugResources-33:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/home/mdutra/.gradle/caches/transforms-3/0384065138861ac0b574232dc17bca12/transformed/appcompat-1.4.1/res/values-v26/values-v26.xml",
+                    "source": "/home/laisdumont/.gradle/caches/transforms-3/0384065138861ac0b574232dc17bca12/transformed/appcompat-1.4.1/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

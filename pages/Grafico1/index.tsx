@@ -1,6 +1,5 @@
 import React from "react";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { Text } from "react-native-paper";
 import { StyleSheet, Dimensions, View } from "react-native";
 import { Container } from "../../components/Container";
 import { colors } from "../../styles/colors";
@@ -10,16 +9,12 @@ import {
   VictoryChart,
   VictoryTheme,
 } from "victory-native";
-import api from "../../services/api";
 import { Card } from "../../components/Card";
-
-// const id = 1;
 
 const numberFormatter = Intl.NumberFormat("pt-BR", {
   minimumFractionDigits: 2,
 });
 
-const mock = { y: 0, x: "" };
 
 export const Grafico1 = ({
   navigation, route
@@ -38,7 +33,6 @@ export const Grafico1 = ({
   return (
     <Container>
       <View style={style.Content}>
-        <Text style={style.Title}>{''}</Text>
         <View style={style.Chart}>
           <VictoryChart
             horizontal
@@ -132,6 +126,7 @@ const style = StyleSheet.create({
     flex: 1,
     justifyContentFlex: "start",
     alignItems: "center",
+    paddingTop: 20
   },
   Chart: {
     paddingBottom: 20,

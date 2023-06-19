@@ -9,7 +9,7 @@ import api from "../../services/api";
 export const ListGraphics = ({
   navigation,
 }: NativeStackScreenProps<RootStackParamList, "OrçamentoUnidades">) => {
-  navigation.setOptions({title: "Orçamento Por Unidade", headerTitleStyle: {fontSize: 23}})
+  navigation.setOptions({title: "Unidades", headerTitleStyle: {fontSize: 23}})
   const [loading, setLoading] = React.useState(true);
   const [values_units, setValuesUnit] = React.useState<
     {
@@ -41,7 +41,6 @@ export const ListGraphics = ({
             <Button
               key={unit.ugr}
               style={styles.item}
-              // icon="chart-line"
               mode="outlined"
               onPress={() => {
                 navigation.navigate("Grafico1", {

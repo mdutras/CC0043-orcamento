@@ -4,7 +4,7 @@
             "outputFile": "com.projetomob.app-mergeDebugResources-33:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/mdutra/.gradle/caches/transforms-3/0384065138861ac0b574232dc17bca12/transformed/appcompat-1.4.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/home/laisdumont/.gradle/caches/transforms-3/0384065138861ac0b574232dc17bca12/transformed/appcompat-1.4.1/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

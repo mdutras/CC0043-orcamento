@@ -18,9 +18,6 @@ export const Container = ({ children }: IContainer) => {
     <View style={styles.container}>
       
         <View style={styles.top}>
-          {/* <View style={styles.box}>
-            <MyHeader title={"Orçamento"} goBack={true} />
-          </View> */}
           <Svg
             height={Dimensions.get("screen").height*0.05}
             width={Dimensions.get("screen").width}
@@ -33,10 +30,7 @@ export const Container = ({ children }: IContainer) => {
             />
           </Svg>
         </View>
-        <ScrollView
-        // stickyHeaderIndices={[0]}
-        // showsVerticalScrollIndicator={false}
-      >
+        <ScrollView>
         <View style={styles.content}>{children}</View>
 
         <View style={styles.bottom}>
@@ -54,15 +48,15 @@ export const Container = ({ children }: IContainer) => {
           <View style={styles.box}>
             <Image
               style={{
-                width: 220,
-                height: 50,
+                width: 250,
+                height: 90,
                 resizeMode: "center",
                 opacity: 1,
                 tintColor: colors.cream,
-                marginLeft: Dimensions.get("screen").width*0.05,
-                marginBottom: Dimensions.get("screen").height*0.01,
+                marginTop: -10,
+                marginLeft: Dimensions.get("screen").width*0.12,
               }}
-              source={require("../../assets/Assinatura-Horizontal-Preta_Prancheta-1.png")}
+              source={require("../../assets/Assinatura-Vertical-Preta_Prancheta-1.png")}
             />
           </View>
         </View>

@@ -1,26 +1,24 @@
 import React, { useState } from 'react';
 import {StyleSheet, View, Button, TextInput, Dimensions, Pressable, Text, Image} from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
-import { Input } from 'react-native-elements';
 import auth from '@react-native-firebase/auth';
 import { Container } from "../../components/Container";
 import { colors } from '../../styles/colors';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { ActivityIndicator } from 'react-native-paper';
 
-export function LoginPage({
-    navigation,
-  }: NativeStackScreenProps<RootStackParamList, "loginPage">): JSX.Element {
+export function LoginPage(): JSX.Element {
     const [login, setLogin] = useState<string>('');
     const [pass, setPass] = useState<string>('');
-    const [loginWarning, setLoginWarning] = useState<string>('');
-    const [passWarning, setPassWarning] = useState<string>('');
+    const [loginWarning, setLoginWarning] = useState<string|null>('');
+    const [passWarning, setPassWarning] = useState<string|null>('');
+    const [loading, setLoading] = useState<boolean>(false);
 
     const handleLogin = () => {
+        setLoading(true)
         auth().signInWithEmailAndPassword(login, pass).then(() => {
-            navigation.navigate("Orçamentos")
+            setLoading(false)
         },
         (error)=>{
-            console.log(error.code)
+            setLoading(false)
             switch(error.code){
                 case "auth/invalid-email":
                     setLoginWarning("Formato de email inválido!")
@@ -44,8 +42,11 @@ return (
                 height: Dimensions.get("screen").height*0.3,
                 resizeMode: "center",
               }}
-              source={require("../../assets/logo2.png")}
+              source={require("../../assets/logo.png")}
             />
+            <Text style={[styles.title]}>
+                ORÇAMENTOS
+            </Text>
         <TextInput
             style={[styles.input, {borderBottomColor:!loginWarning?'gray':'red'}]}
             placeholder='Insira o login'
@@ -61,9 +62,14 @@ return (
             value={pass}
         />
         <Text style={styles.warning}>{passWarning}</Text>
-        <Pressable style={[styles.button, {backgroundColor: !login || !pass?'gray': colors.lightBrown}]} disabled={!login || !pass} onPress={handleLogin}>
-            <Text style={{color:!!login && !!pass?"#fff":"#ccc"}}>Entrar</Text>
-        </Pressable>
+        {loading? (
+            <View style={[styles.button]}> 
+                <ActivityIndicator animating={true} size={"small"} />
+            </View>):(
+            <Pressable style={[styles.button, {backgroundColor: !login || !pass?'gray': colors.lightBrown}]} disabled={!login || !pass} onPress={handleLogin}>
+                <Text style={{color:!!login && !!pass?"#fff":"#ccc"}}>Entrar</Text>
+            </Pressable>)}
+        
         </View>
     </Container>
 );}
@@ -73,7 +79,6 @@ const styles = StyleSheet.create({
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
-      margin: 10,
     },
     input : {
         height: 40,
@@ -88,12 +93,19 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 15,
-        marginTop:20,
+        marginTop:10,
     },
     warning : {
         color: 'red',
         fontSize:11,
         justifyContent: 'flex-start',
         width: Dimensions.get('window').width*0.8,
+    },
+    title : {
+        color: colors.brown,
+        fontSize: 25,
+        fontWeight: "800",
+        marginTop: -35,
+        marginBottom: 25,
     }
   });

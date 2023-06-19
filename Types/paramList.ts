@@ -1,5 +1,5 @@
 type RootStackParamList = {
-  Orçamentos: undefined;
+  Menu: undefined;
   OrçamentoUnidades: undefined;
   Grafico1: {
     title?: string;

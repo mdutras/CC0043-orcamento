@@ -1,43 +1,18 @@
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { Dimensions, StyleSheet, Text, View } from "react-native";
-import { ActivityIndicator, Button, List, MD3Colors } from "react-native-paper";
+import { Dimensions, StyleSheet } from "react-native";
+import { Button, List } from "react-native-paper";
 import { colors } from "../../styles/colors";
 import React from "react";
-import api from "../../services/api";
 import { Container } from "../../components/Container";
 
 export const Menu = ({
   navigation,
-}: NativeStackScreenProps<RootStackParamList, "Orçamentos">) => {
-  const [loading, setLoading] = React.useState(true);
-  const [values_units, setValuesUnit] = React.useState<
-    {
-      aliquidar: number;
-      empenhado: number;
-      planejado: number;
-      liquidado: number;
-      saldo: number;
-      ugr: string;
-    }[]
-  >([]);
-
-  React.useEffect(() => {
-    setLoading(true);
-    (async function () {
-      await api
-        .get("https://sci01-ter-jne.ufca.edu.br/webapi/por_ugr.json")
-        .then((response) => {
-          setValuesUnit(response.data);
-          setLoading(false);
-        });
-    })();
-  }, []);
+}: NativeStackScreenProps<RootStackParamList, "Menu">) => {
   return (
     <Container>
         <List.Section style={styles.section}>
             <Button
               style={styles.item}
-              // icon="chart-line"
               mode="outlined"
               onPress={() => {
                 navigation.navigate("OrçamentoUnidades");
@@ -117,8 +92,8 @@ export const Menu = ({
 const styles = StyleSheet.create({
   section: {
     paddingVertical: 10,
-    paddingTop: 20,
-    paddingBottom:0,
+    paddingTop: 10,
+    padding:10,
     minHeight: Dimensions.get("screen").height * 0.55,
     display: "flex",
     justifyContent: "center",
