@@ -14,22 +14,20 @@ export function LoginPage(): JSX.Element {
 
     const handleLogin = () => {
         setLoading(true)
+        
         auth().signInWithEmailAndPassword(login, pass).then(() => {
             setLoading(false)
         },
         (error)=>{
             setLoading(false)
-            switch(error.code){
-                case "auth/invalid-email":
-                    setLoginWarning("Formato de email inválido!")
-                    setPassWarning("")
-                    break
-                case "auth/user-not-found":
-                    setLoginWarning("Login ou Senha inválidos!")
-                    setPassWarning("Login ou Senha inválidos!")
-                    break
-
-            }
+            if(error.code == "auth/invalid-email"){
+                setLoginWarning("Formato de email inválido!")
+                setPassWarning("")
+            } else if(error.code == "auth/user-not-found"){
+                setLoginWarning("Usuário inexistente!")
+            } else{
+                setPassWarning("Senha inválida!")
+            };
         })
     }
     
@@ -52,6 +50,7 @@ return (
             placeholder='Insira o login'
             onChangeText={t => setLogin(t)}
             value={login}
+            onPressIn={t => setLoginWarning('')}
         />
         <Text style={styles.warning}>{loginWarning}</Text>
         <TextInput
@@ -60,6 +59,7 @@ return (
             placeholder='Insira a senha'
             onChangeText={t => setPass(t)}
             value={pass}
+            onPressIn={t => setPassWarning('')}
         />
         <Text style={styles.warning}>{passWarning}</Text>
         {loading? (

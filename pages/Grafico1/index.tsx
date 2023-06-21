@@ -126,7 +126,7 @@ const style = StyleSheet.create({
     flex: 1,
     justifyContentFlex: "start",
     alignItems: "center",
-    paddingTop: 20
+    paddingTop: 15,
   },
   Chart: {
     paddingBottom: 20,

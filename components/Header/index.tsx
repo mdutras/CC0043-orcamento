@@ -20,16 +20,6 @@ export const MyHeader = (props: IHeader) => {
       <Appbar.Header style={{backgroundColor: 'transparent'}}>
       {props.goBack && <Appbar.BackAction onPress={() => {}} />}
         <Appbar.Content title={props.title}  />
-        <Menu
-          visible={visible}
-          onDismiss={closeMenu}
-          anchor={<Appbar.Action icon={MORE_ICON} onPress={openMenu} />}
-        >
-          <Menu.Item onPress={() => {}} title="Visualizar" />
-          <Menu.Item onPress={() => {}} title="Baixar" />
-          <Divider />
-          <Menu.Item onPress={() => {}} title="Editar" />
-        </Menu>
       </Appbar.Header>
     </View>
   );
